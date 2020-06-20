@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica', sans-serif;
+}
+.navbar-dark .navbar-nav .nav-link {
+    display: block;
+    border: 1px solid #2674b0;
+    padding: 6px 42px;
+    color: #2674b0;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover
+{
+    color: #fff;
+    background: #2674b0;
+}
+
+header .banner
+{
+    background-image: url("../Images/bannerimg.jpg");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+header .banner .bannercont h2
+{
+    padding-top: 5rem;
+    color: white;
+    font-size: 45px;
+}
+header .banner .bannercont p
+{
+    color: white;
+    font-size:18px;
+}
+header .banner .bannerlink
+{
+    padding-top: 15rem;
+}
+header .banner .bannerlink a
+{
+    display: inline-block;
+    color:white;
+    border: 2px solid white;
+    padding: 15px 0px;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 36%;    
+    margin-left: 20px;
+}
+header .banner .bannerlink a:hover
+{
+    text-decoration: none;
+    color: #fff;
+    background: #2674b0;
+}
+.servicesection
+{
+    background-color: #fbeeff;
+}
+.servicesection .servicecont
+{
+    padding-top: 30px;
+}
+.servicesection .servicecont h2 .servicetext1
+{
+    color:#2674b0;
+    font-size: 6vh;
+    font-weight: 300;
+    border-bottom: 5px solid #2674b0;
+}
+.servicesection .servicecont h2 .servicetext2
+{
+    color: #2674b0;
+    font-size: 6vh;
+    font-weight: 550;
+    border-bottom: 1px solid #2674b0
+}
+.servicesection .servicecont .servicedetail
+{
+    text-align: center;
+}
+.servicesection .servicecont .servicedetail li
+{
+    float: inherit;
+}
+.servicesection .servicecont .servicedetail li
+{
+    display: inline-block;
+    width: 24%;
+    padding: 30px;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
+.servicesection .servicecont .servicedetail .serviceicons1
+{
+    width: 170px;
+    height: 170px;
+    padding-top: 30px;
+    border-radius: 50%;
+    /* border: 2px solid #b0dbff; */
+    background: linear-gradient(to bottom, #81c2f8 0%,#2992eb 100%);
+}
+.servicesection .servicecont .servicedetail .serviceicons2
+{
+    width: 170px;
+    height: 170px;
+    padding-top: 30px;
+    border-radius: 50%;
+    /* border: 2px solid #e67e22; */
+    background: linear-gradient(to bottom, #c48544 0%, #e67e22 100%);
+}
+.servicesection .servicecont .servicedetail .serviceicons3
+{
+    width: 170px;
+    height: 170px;
+    padding-top: 30px;
+    border-radius: 50%;
+    /* border: 2px solid #2ecc71; */
+    background: linear-gradient(to bottom, #67ac9f 0%, #2ecc71 100%);
+}
+.servicesection .servicecont .servicedetail .serviceicons4
+{
+    width: 170px;
+    height: 170px;
+    padding-top: 30px;
+    border-radius: 50%;
+    /* border: 2px solid #f1c40f; */
+    background: linear-gradient(to bottom, #c2d367 0%,#f1c40f 100%);
+}
+.servicesection .servicecont .servicedetail .serviceicons5
+{
+    width: 170px;
+    height: 170px;
+    padding-top: 30px;
+    border-radius: 50%;
+    /* border: 2px solid #8e44ad; */
+    background: linear-gradient(to bottom, #a26aba 0%,#8e44ad 100%);
+}
+.servicesection .servicecont .servicedetail .serviceicons6
+{
+    width: 170px;
+    height: 170px;
+    padding-top: 30px;
+    border-radius: 50%;
+    /* border: 2px solid #2980b9; */
+    background: linear-gradient(to bottom, #1691e1 0%,#0a8add 100%);
+}
+.servicesection .servicecont .servicedetail li h4{
+font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    position: relative;
+    top: -75px;
+    left: -14px;
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+    line-height: 20px;
+}
+
+/* Our technology css */
+
+.technosection
+{
+    background-color: #fff;
+}
+.technosection .technocont
+{
+    padding-top: 30px;
+}
+.technosection .technocont h2 .technotext1
+{
+    color:#2674b0;
+    font-size: 6vh;
+    font-weight: 300;
+    border-bottom: 5px solid #2674b0;
+}
+.technosection .technocont h2 .technotext2
+{
+    color: #2674b0;
+    font-size: 6vh;
+    font-weight: 550;
+    border-bottom: 1px solid #2674b0
+}
+
+.blocks
+{
+    display: grid;
+    grid-gap: 0px 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 25px;
+    grid-template-columns: auto auto auto;
+}
+#b1
+{
+    background-color: #fff;
+    border-left: 1px solid #8080803d;
+    padding: 25px;
+}
+#b1 a
+{
+    display: inline-block;
+    background: #82a64c;
+    color: #FFFFFF;
+    padding: 7px 40px;
+    font-size: 18px;
+}
+#b1 a:hover{
+    text-decoration: none;
+}
+#b1 h3
+{
+    font-size: 24px;
+    margin: 0 0 5px 0;
+    color: #191f28;
+    line-height: 28px;
+    float: left;
+    width: 100%;
+    position: relative;
+    min-height: 40px;
+}
+#b1 h3 .technoimg
+{
+    float: right;
+    position: absolute;
+    right: 0;
+    top: -7px;
+}
+#b1 p
+{
+    font-size: 13px;
+    padding-right: 20px;
+    margin-bottom: 15px;
+}
+
+/* PartPro css */
+
+.portsection
+{
+    background-color: #fff;
+}
+.portsection .portcont
+{
+    padding-top: 30px;
+}
+.portsection .portcont h2 .porttext1
+{
+    color:#2674b0;
+    font-size: 6vh;
+    font-weight: 300;
+    border-bottom: 5px solid #2674b0;
+}
+.portsection .portcont h2 .porttext2
+{
+    color: #2674b0;
+    font-size: 6vh;
+    font-weight: 550;
+    border-bottom: 1px solid #2674b0
+}
+
+footer{
+    background-color: #2674b0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 16px;
+}
+footer ul li
+{
+    display: inline-block;
+    padding-right: 20px;
+    color:white;
+}
+footer ul li img
+{
+    height: 45px;
+}
